@@ -1,0 +1,89 @@
+body {
+  font-size: 15pt;
+}
+
+.clockmain {
+
+  height: 40vw;
+  width: 40vw;
+  position: relative;
+  margin: auto;
+
+  background: url('clock.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+#seconds,
+#hours,
+#mins {
+  position: absolute;
+  
+  border-radius: 100px;
+  transform-origin: bottom;
+}
+
+#date {
+  position: absolute;
+  border-radius: 12px;
+  height: 8%;
+  width: 12%;
+  top: 18vw;
+  left: 29vw;
+  border: 1px solid black;
+}
+
+#day {
+  position: absolute;
+  border-radius: 12px;
+  height: 8%;
+  width: 18%;
+  top: 18vw;
+  left: 21.6vw;
+  border: 1px solid black;
+  
+
+}
+
+#day2 {  position: absolute;
+  top: -4.6vw;
+  font-size: 0.82rem;
+  left: 0.81vw;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+#date2 {
+  position: absolute;
+  top: -4.2vw;
+  font-size: 0.82rem;
+  left: 1.8vw;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+#seconds {
+  height: 30%;
+  width: 0.7%;
+  top: 8vw;
+  left: 19.8vw;
+  background-color: blue;
+
+}
+
+#hours {
+  height: 20%;
+  width: 1.2%;
+  top: 12vw;
+  left: 19.7vw;
+  background-color: red;
+
+}
+
+#mins {
+  height: 28%;
+  width: 1%;
+  top: 9.3vw;
+  left: 19.75vw;
+  background-color:black;
+
+}
